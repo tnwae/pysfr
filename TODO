@@ -1,0 +1,15 @@
+Things to Do for the Project
+----------------------------
+
+[ ] Look at the disassembly and discern where the table for
+    battled trainers is kept, and how those event flags are
+    stored in the save file.
+
+[ ] I know, from a YouTube video, that the Pokedex table is
+    204 (19*8*2) bits long in Gen 1: 152 bits for Seen flags,
+    and 152 bits for Caught flags.  Where are these flags,
+    and how are they stored?  And how hard would it be to
+    set these flags and recalculate the checksum accordingly?
+
+[ ] Add an option to set the correct checksum if the file has
+    been altered in any way.
